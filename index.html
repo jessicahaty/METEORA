@@ -16,6 +16,77 @@
             <input type="search" id="buscar">
             <button>Buscar</button>
         </div>
+
+
+    <!-- Carrossel do Gepeto -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #carousel {
+                width: 1440px; /* Defina a largura do carrossel conforme necessário */
+                overflow: hidden;
+            }
+
+            #image-container {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+            }
+
+            .carousel-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .arrow {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 24px;
+            }
+
+            .prev {
+                left: 50px;
+                position:absolute;
+            }
+
+            .next {
+                right: 10px;
+            }
+        </style>
+
+        <div id="carousel">
+            <div id="image-container">
+                <img class="carousel-image" src="img/header/Banner1G.png" alt="Imagem 1">
+                <img class="carousel-image" src="img/header/Banner2G.png" alt="Imagem 2">
+                <img class="carousel-image" src="img/header/Banner3G.png" alt="Imagem 3">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+            <div class="arrow prev" onclick="prevSlide()">&#10094;</div>
+            <div class="arrow next" onclick="nextSlide()">&#10095;</div>
+        </div>
+
+        <script>
+            let currentIndex = 0;
+
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % document.querySelectorAll('.carousel-image').length;
+                updateCarousel();
+            }
+
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + document.querySelectorAll('.carousel-image').length) % document.querySelectorAll('.carousel-image').length;
+                updateCarousel();
+            }
+
+            function updateCarousel() {
+                const imageContainer = document.getElementById('image-container');
+                const slideWidth = document.querySelector('.carousel-image').clientWidth;
+                imageContainer.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
+            }
+        </script>
+
     </header>
 </body>
 </html>

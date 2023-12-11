@@ -1,0 +1,50 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    position: relative;
+}
+
+#carousel {
+    max-width: 1200px;
+    margin: 0 auto; 
+    overflow: hidden;
+    position: relative;
+}
+
+#image-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-image {
+    flex: 0 0 auto; 
+    width: 100%; 
+    height: auto;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+}
+
+.prev {
+    left: 30px;
+    color: transparent;
+}
+
+.next {
+    right: 30px;
+    color: transparent;
+}

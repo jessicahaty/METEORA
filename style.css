@@ -1,15 +1,64 @@
 body {
     align-items: center;
     justify-content: center;
-    display: flex;
     background-color: black;
-    margin: 0;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header {
     background-color: black;
     position: relative;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    transition: transform 0.3s;
+}
+
+.menu img {
+    width: 30%;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+}
+
+.menu input {
+    height: 30px;
+}
+
+.menu button {
+    height: 30px;
+    border-color: #FFF;
+    color: #FFF;
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+
+.categoria-card p {
+    background-color: #FFF;
+    width:160px;
+}
+
+
+
+
+
+
+
 
 #carousel {
     max-width: 1200px;

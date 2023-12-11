@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>METEORA</title>
 </head>
@@ -14,7 +17,7 @@
             <a href="#lojas">Nossas Lojas</a>
             <a href="#novidades">Novidades</a>
             <a href="#promocoes">Promoções</a>
-            <input type="search" id="buscar">
+            <input type="search" id="buscar" placeholder="Digite o produto">
             <button>Buscar</button>
         </div>
     
@@ -28,26 +31,40 @@
             <div class="arrow next" onclick="nextSlide()">&#10095;</div>
         </div>
 
-        <script>
-            let currentIndex = 0;
-
-            function nextSlide() {
-                currentIndex = (currentIndex + 1) % document.querySelectorAll('.carousel-image').length;
-                updateCarousel();
-            }
-
-            function prevSlide() {
-                currentIndex = (currentIndex - 1 + document.querySelectorAll('.carousel-image').length) % document.querySelectorAll('.carousel-image').length;
-                updateCarousel();
-            }
-
-            function updateCarousel() {
-                const imageContainer = document.getElementById('image-container');
-                const slideWidth = document.querySelector('.carousel-image').clientWidth;
-                imageContainer.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
-            }
-        </script>
-
     </header>
+
+    <div>
+        <h3>Busque por categoria:</h3>
+   </div>
+
+    <div>
+        <div class="categoria-card">
+            <img src="img/categoria/camiseta.png" alt="">
+            <p>Camisetas</p>
+        </div>
+        <div class="categoria-card">
+            <img src="img/categoria/camiseta.png" alt="">
+            <p>Camisetas</p>
+        </div>
+        <div class="categoria-card">
+            <img src="img/categoria/camiseta.png" alt="">
+            <p>Camisetas</p>
+        </div>
+        <div class="categoria-card">
+            <img src="img/categoria/camiseta.png" alt="">
+            <p>Camisetas</p>
+        </div>
+        <div class="categoria-card">
+            <img src="img/categoria/camiseta.png" alt="">
+            <p>Camisetas</p>
+        </div>
+        <div class="categoria-card">
+            <img src="img/categoria/camiseta.png" alt="">
+            <p>Camisetas</p>
+        </div>
+    </div>
+
+
+    <script src="script.js" ></script>
 </body>
 </html>

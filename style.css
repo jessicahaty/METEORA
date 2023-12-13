@@ -56,17 +56,57 @@ header {
     margin: 0 auto;
     overflow:hidden;
     position: relative;
+    justify-content: space-evenly;
 }
 
 .categoria-card p {
-    background-color: #FFF;
+    background-color: #ccc;
     width:160px;
 }
 
+.p-categoria {
+    margin: 0;
+}
 
+.categoria-card {
+    cursor: pointer;
+    font-family:'Kanit', sans-serif ;
+}
 
+.titulo-branco {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
+.produto-card {
+    background-color: #ccc;
+    width: 30%;
+    font-family: 'Kanit', sans-serif;
+    border: solid 5px #daff01;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 4px 4px 8px #daff01;
+}
 
+.produto-card img {
+    width: 100%;
+}
+
+.produto-card h3, .produto-card p, .produto-card button {
+    margin-left: 20px;
+}
+
+.produto-card button {
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #daff01;
+    border-color: transparent;
+    color: black;
+}
 
 
 

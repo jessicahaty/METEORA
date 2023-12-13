@@ -48,6 +48,16 @@ header {
     font-family: 'Kanit', sans-serif;
 }
 
+
+#categorias {
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    overflow:hidden;
+    position: relative;
+}
+
 .categoria-card p {
     background-color: #FFF;
     width:160px;

@@ -109,6 +109,78 @@ header {
 }
 
 
+footer p{
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+#facilidades{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    max-height: 238px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#facilidades img{
+    float: left;
+}
+
+
+#facilidades h1{
+    color: #DAFF01;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+#facilidades p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #carousel {
     max-width: 1200px;
@@ -147,3 +219,4 @@ header {
     right: 30px;
     color: transparent;
 }
+

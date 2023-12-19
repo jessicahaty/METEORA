@@ -50,7 +50,7 @@ header {
 
 
 #categorias {
-    max-width: 1200px;
+    max-width: 1300px;
     text-align: center;
     display: flex;
     margin: 0 auto;
@@ -80,14 +80,28 @@ header {
     margin-bottom: 40px;
 }
 
+.produtos {
+    max-width: 1300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+    margin: 0 auto;
+}
+
+.linha-produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
 .produto-card {
     background-color: #ccc;
     width: 30%;
     font-family: 'Kanit', sans-serif;
-    border: solid 5px #daff01;
+    border: solid 5px #ffffff;
     border-radius: 5px;
     max-width: 400px;
-    box-shadow: 4px 4px 8px #daff01;
+    margin: 10px;
 }
 
 .produto-card img {

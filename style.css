@@ -1,10 +1,11 @@
 body {
     align-items: center;
     justify-content: center;
-    background-color: black;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;    
+    background-color: black;
+
 }
 
 header {
@@ -19,6 +20,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .menu a {
@@ -57,6 +59,7 @@ header {
     overflow:hidden;
     position: relative;
     justify-content: space-evenly;
+    
 }
 
 .categoria-card p {
@@ -102,6 +105,9 @@ header {
     border-radius: 5px;
     max-width: 400px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .produto-card img {
@@ -110,6 +116,7 @@ header {
 
 .produto-card h3, .produto-card p, .produto-card button {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .produto-card button {
@@ -120,14 +127,24 @@ header {
     background-color: #daff01;
     border-color: transparent;
     color: black;
+    font-family: 'Kanit', sans-serif;
+    margin-top: auto;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
+.produto-card button:hover {
+    transform: scale(1.05); 
+}
 
 footer p{
     color: #FFF;
     font-family: 'Kanit', sans-serif;
     font-size: 32px;
     text-align: center;
+    margin-bottom: 60px;
 
 }
 
@@ -169,10 +186,62 @@ footer p{
 }
 
 
+.cadastro {
+    background-color: white;
+    width: 100% !important; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    font-size: 16px;
+}
+
+.cadastro-conteudo {
+    border: solid black 2px;
+    padding: 30px;
+    
+}
+
+.cadastro-conteudo p {
+    padding-bottom: 20px;
+}
+
+.cadastro input {
+    padding: 10px 100px;
+}
+
+.cadastro div {
+    max-width: 600px; 
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
 
 
+.cadastro p {
+    margin: 0; 
+}
 
+.cadastro button {
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #daff01;
+    border-color: transparent;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    margin-top: auto;
+    font-size: 15px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
 
+.cadastro button:hover {
+    transform: scale(1.05); 
+}
 
 
 

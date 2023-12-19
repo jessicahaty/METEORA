@@ -243,6 +243,11 @@ footer p{
     transform: scale(1.05); 
 }
 
+.direitos{
+    color: #ccc;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
 
 
 

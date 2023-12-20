@@ -129,13 +129,23 @@
     <div id="modalProduto" class="modal">
         <div class="modal-conteudo">
             <span class="fechar" onclick="fecharModal()">&times;</span>
-            <h2 id="modal-titulo"></h2>
-            <img id="modal-imagem" src="" alt="Imagem do produto">
-            <p id="modal-descricao"></p>
-            <p id="modal-preco"></p>
+            <div style="display: flex;">
+                <div>
+                    <img id="modal-imagem" src="" alt="Imagem do produto">
+                </div>
+                <div>
+                    <h2 id="modal-titulo"></h2>
+                    <p id="modal-descricao"></p>
+                    <hr>
+                    <p id="modal-preco"></p>
+                    <p>Vendo e entregue por Riachuelo</p>
+                    <hr>
+                    <label for=""><b>Cores</b></label>
+                </div>
+            </div>
         </div>
     </div>
-    
+        
     <footer>
         <p>Conheça todas as nossas facilidades<br>
         <div id="facilidades">

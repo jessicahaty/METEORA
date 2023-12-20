@@ -73,7 +73,11 @@
                 <h3>Camiseta Conforto</h3>
                 <p>Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex.</p>
                 <p><b>R$ 70,00</b></p>
-                <button>Ver Mais</button>
+                <button class="ver-mais" 
+                        data-titulo="Camiseta Conforto" 
+                        data-imagem="img/produto/camiseta.png" 
+                        data-descricao="Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex." 
+                        data-preco="R$ 70,00">Ver Mais</button>
             </div>
             
             <div class="produto-card">
@@ -117,6 +121,16 @@
                 <p><b>R$ 120,00</b></p>
                 <button>Ver Mais</button>
             </div>
+        </div>
+    </div>
+
+    <div id="modalProduto" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <h2 id="modal-titulo"></h2>
+            <img id="modal-imagem" src="" alt="Imagem do produto">
+            <p id="modal-descricao"></p>
+            <p id="modal-preco"></p>
         </div>
     </div>
     

@@ -323,3 +323,26 @@ footer p{
     color: transparent;
 }
 
+
+@media (max-width: 900px) {
+
+    .menu {
+        height: 55px;
+    }
+
+    .menu img {
+        width:15%;
+    }
+
+    .menu a {
+        font-size: 15px;
+    }
+
+    .menu input {
+        width: 10%;
+    }
+
+    .menu button {
+        margin-right: 50px;
+    }
+}

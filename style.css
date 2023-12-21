@@ -56,15 +56,18 @@ header {
     text-align: center;
     display: flex;
     margin: 0 auto;
-    overflow:hidden;
+    overflow: hidden;
     position: relative;
     justify-content: space-evenly;
+    flex-wrap: wrap; 
     
 }
 
 .categoria-card p {
     background-color: #ccc;
     width:160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .p-categoria {
@@ -73,7 +76,9 @@ header {
 
 .categoria-card {
     cursor: pointer;
-    font-family:'Kanit', sans-serif ;
+    font-family: 'Kanit', sans-serif;
+    margin: 0 1.5%; /* Adicionar margens para espaçamento entre os itens */
+    box-sizing: border-box;
 }
 
 .titulo-branco {
@@ -344,5 +349,17 @@ footer p{
 
     .menu button {
         margin-right: 50px;
+    }
+
+    #categorias {
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+        margin-right: 50px;
+    }
+
+    .categoria-card {
+        flex: 1 0 30%; /* Distribui igualmente o espaço, com uma largura máxima de 48% */
+        margin: 0 1%; /* Adiciona margens para espaçamento entre os itens */
+        margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -79,7 +79,9 @@
                         data-imagem="img/produto/camiseta.png"
                         data-titulo="Camiseta Conforto"                          
                         data-descricao="Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex." 
-                        data-preco="R$ 70,00">Ver Mais</button>
+                        data-preco="R$ 70,00">
+                        Ver Mais
+                </button>
             </div>
             
             <div class="produto-card">
@@ -129,16 +131,26 @@
     <div id="modalProduto" class="modal">
         <div class="modal-conteudo">
             <span class="fechar" onclick="fecharModal()">&times;</span>
-            <img id="modal-check" src="" alt="Icone check">
+            <div style="display: flex;">
+                <div>
+                    <img id="modal-imagem" src="" alt="Imagem do produto">
+                </div>
+                <div>
+                    <img id="modal-check" src="" alt="Icone check">
             <h1 id="modal-topo"></h1>
-            <img id="modal-imagem" src="" alt="Imagem do produto">
-            <h2 id="modal-titulo"></h2>
+                    <h2 id="modal-titulo"></h2>
             <p id="modal-descricao"></p>
-            <hr>
+                    <hr>
+                    <hr>
             <p id="modal-preco"></p>
+                    <p>Vendo e entregue por Riachuelo</p>
+                    <hr>
+                    <label for=""><b>Cores</b></label>
+                </div>
+            </div>
         </div>
     </div>
-    
+        
     <footer>
     <p>Conheça todas as nossas facilidades<br>
         <div id="facilidades">

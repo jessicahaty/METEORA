@@ -362,4 +362,27 @@ footer p{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .mr {
+        margin-left: 40px;
+    }
+    
+    footer {
+        margin: 20px 0; /* Adiciona espaço acima e abaixo do footer */
+        padding: 0 20px; /* Adiciona espaço nos lados do footer */
+    }
+
+    footer p {
+        font-size: 20px; /* Reduz o tamanho da fonte do texto do footer */
+        margin-bottom: 30px; /* Reduz o espaçamento inferior do texto do footer */
+    }
+
+    #facilidades {
+        max-height: 180px; /* Reduz a altura do bloco de facilidades no footer */
+    }
+
+    .mb {
+        margin-bottom: 20px;
+    }
+
 }

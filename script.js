@@ -18,10 +18,8 @@ function updateCarousel() {
 
 function abrirModal(botao) {
     var modal = document.getElementById("modalProduto");
-    document.getElementById("modal-check").src = botao.dataset.check;
-    document.getElementById("modal-topo").innerText = botao.dataset.topo;
-    document.getElementById("modal-imagem").src = botao.dataset.imagem;
     document.getElementById("modal-titulo").innerText = botao.dataset.titulo;
+    document.getElementById("modal-imagem").src = botao.dataset.imagem;
     document.getElementById("modal-descricao").innerText = botao.dataset.descricao;
     document.getElementById("modal-preco").innerText = botao.dataset.preco;
     modal.style.display = "block";

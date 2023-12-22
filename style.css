@@ -362,27 +362,59 @@ footer p{
         margin-left: auto;
         margin-right: auto;
     }
+}
 
-    .mr {
-        margin-left: 40px;
-    }
-    
-    footer {
-        margin: 20px 0; /* Adiciona espaço acima e abaixo do footer */
-        padding: 0 20px; /* Adiciona espaço nos lados do footer */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
     }
 
-    footer p {
-        font-size: 20px; /* Reduz o tamanho da fonte do texto do footer */
-        margin-bottom: 30px; /* Reduz o espaçamento inferior do texto do footer */
+    .menu img {
+        width: 50%;
     }
 
-    #facilidades {
-        max-height: 180px; /* Reduz a altura do bloco de facilidades no footer */
+    .menu a {
+        font-size: 14px;
     }
 
-    .mb {
+    .menu input {
+        width: 30%;
+    }
+
+    .menu button {
+        margin-right: 10px;
+    }
+
+    #categorias {
+        margin-right: 10px;
+    }
+
+    .categoria-card {
+        flex: 1 0 48%;
+    }
+
+    .titulo-branco {
+        font-size: 24px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 
+    .linha-produtos {
+        flex-direction: column;
+    }
+
+    .produto-card {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .produto-card button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
 }

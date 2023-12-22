@@ -74,6 +74,8 @@
                 <p>Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex.</p>
                 <p><b>R$ 70,00</b></p>
                 <button class="ver-mais" 
+                        data-check="img/produto/Vector.png"
+                        data-topo="Confira detalhes sobre o produto" 
                         data-titulo="Camiseta Conforto" 
                         data-imagem="img/produto/camiseta.png" 
                         data-descricao="Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex." 
@@ -127,8 +129,13 @@
     </div>
 
     <div id="modalProduto" class="modal">
-        <div class="modal-conteudo">
-            <span class="fechar" onclick="fecharModal()">&times;</span>
+        <div class="modal-conteudo">            
+            <div id="info-topo">
+                <img id="modal-check" src="" alt="Imagem do produto">
+                <h2 id="modal-topo"></h2>
+                <span class="fechar" onclick="fecharModal()">&times;</span>
+            </div>
+            
             <div style="display: flex;">
                 <div>
                     <img id="modal-imagem" src="" alt="Imagem do produto">
@@ -136,11 +143,28 @@
                 <div>
                     <h2 id="modal-titulo"></h2>
                     <p id="modal-descricao"></p>
-                    <hr>
+                    <hr style="border: 1px solid black;">
                     <p id="modal-preco"></p>
-                    <p>Vendo e entregue por Riachuelo</p>
-                    <hr>
-                    <label for=""><b>Cores</b></label>
+                    
+                    <p style="color: rgb(201, 201, 201);">Vendido e entregue por Riachuelo</p>
+                    <hr style="border-top: 1px solid whitesmoke;">
+                    <p><b>Cores:</b></p>
+                    <div>
+                        <label><input type="radio" name="radioset" />Laranja</label>
+                        <label><input type="radio" name="radioset" />Marrom</label>
+                        <label><input type="radio" name="radioset" />Bege</label>
+                    </div>
+
+                    <hr style="border-top: 1px solid whitesmoke;">
+                    <p>Tamanho:</p>
+                    <div>
+                        <label><input type="radio" name="radioset2" />P</label>
+                        <label><input type="radio" name="radioset2" />PP</label>
+                        <label><input type="radio" name="radioset2" />M</label>
+                        <label><input type="radio" name="radioset2" />G</label>
+                        <label><input type="radio" name="radioset2" />GG</label>
+                    </div>
+                    <button class="comprar">Adicionar à sacola</button>
                 </div>
             </div>
         </div>

@@ -264,12 +264,42 @@ footer p{
 }
 
 .modal-conteudo {
+    font-family: 'Kanit', sans-serif;
     background-color: #fefefe;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
 }
+
+.modal-conteudo img{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#info-topo{
+    display: flex; 
+    background-color: black; 
+    padding: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+    color: white; 
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#info-topo img{
+    padding-bottom: 30px;
+}
+#info-topo h2{
+    padding-right: 500px;
+}
+
+
+
+
 
 .fechar {
     color: #aaa;
@@ -280,18 +310,36 @@ footer p{
 
 .fechar:hover,
 .fechar:focus {
-    color: black;
+    color:#DAFF01;
     text-decoration: none;
     cursor: pointer;
 }
 
 
+input[type=radio] {
+    display: block;
+    margin: 0 auto;
+    margin-right: 45px;
+
+}
+label {
+    display: inline-block;
+}
 
 
-
-
-
-
+.comprar {
+    font-family: 'Kanit', sans-serif;
+    background-color:#DAFF01;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 
 

@@ -67,15 +67,17 @@
     <h1 class="titulo-branco">Produtos que estão bombando!</h1>
 
     <div class="produtos">
-        <div class="linha-produtos">
+    <div class="linha-produtos">
             <div class="produto-card">
                 <img src="img/produto/camiseta.png">
                 <h3>Camiseta Conforto</h3>
                 <p>Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex.</p>
                 <p><b>R$ 70,00</b></p>
-                <button class="ver-mais" 
-                        data-titulo="Camiseta Conforto" 
-                        data-imagem="img/produto/camiseta.png" 
+                <button class="ver-mais"
+                        data-check="img/footer/pix.png"
+                        data-topo="Confira detalhes sobre o produto"
+                        data-imagem="img/produto/camiseta.png"
+                        data-titulo="Camiseta Conforto"                          
                         data-descricao="Multicores e tamanhos. Tecido de algodão%, fresquinho para o verão. Modelagem unissex." 
                         data-preco="R$ 70,00">Ver Mais</button>
             </div>
@@ -127,15 +129,18 @@
     <div id="modalProduto" class="modal">
         <div class="modal-conteudo">
             <span class="fechar" onclick="fecharModal()">&times;</span>
-            <h2 id="modal-titulo"></h2>
+            <img id="modal-check" src="" alt="Icone check">
+            <h1 id="modal-topo"></h1>
             <img id="modal-imagem" src="" alt="Imagem do produto">
+            <h2 id="modal-titulo"></h2>
             <p id="modal-descricao"></p>
+            <hr>
             <p id="modal-preco"></p>
         </div>
     </div>
     
     <footer>
-        <p>Conheça todas as nossas facilidades<br>
+    <p>Conheça todas as nossas facilidades<br>
         <div id="facilidades">
             <div class="pix">
                 <img src="img/footer/pix.png" alt="">

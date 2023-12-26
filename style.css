@@ -56,15 +56,18 @@ header {
     text-align: center;
     display: flex;
     margin: 0 auto;
-    overflow:hidden;
+    overflow: hidden;
     position: relative;
     justify-content: space-evenly;
+    flex-wrap: wrap; 
     
 }
 
 .categoria-card p {
     background-color: #ccc;
     width:160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .p-categoria {
@@ -73,7 +76,9 @@ header {
 
 .categoria-card {
     cursor: pointer;
-    font-family:'Kanit', sans-serif ;
+    font-family: 'Kanit', sans-serif;
+    margin: 0 1.5%; /* Adicionar margens para espaçamento entre os itens */
+    box-sizing: border-box;
 }
 
 .titulo-branco {
@@ -316,30 +321,12 @@ footer p{
 }
 
 
-input[type=radio] {
-    display: block;
-    margin: 0 auto;
-    margin-right: 45px;
-
-}
-label {
-    display: inline-block;
-}
 
 
-.comprar {
-    font-family: 'Kanit', sans-serif;
-    background-color:#DAFF01;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+
+
+
+
 
 
 
@@ -390,3 +377,4 @@ label {
     right: 30px;
     color: transparent;
 }
+

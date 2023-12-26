@@ -352,13 +352,13 @@ footer p{
     }
 
     #categorias {
-        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+        flex-wrap: wrap;
         margin-right: 50px;
     }
 
     .categoria-card {
-        flex: 1 0 30%; /* Distribui igualmente o espaço, com uma largura máxima de 48% */
-        margin: 0 1%; /* Adiciona margens para espaçamento entre os itens */
+        flex: 1 0 30%; 
+        margin: 0 1%; 
         margin-left: auto;
         margin-right: auto;
     }

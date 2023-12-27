@@ -176,7 +176,7 @@
                 <span class="fechar" onclick="fecharModal()">&times;</span>
             </div>
             
-            <div style="display: flex;">
+            <div class="column" style="display: flex;">
                 <div>
                     <img id="modal-imagem" src="" alt="Imagem do produto">
                 </div>
@@ -186,25 +186,25 @@
                     <hr style="border: 1px solid black;">
                     <p id="modal-preco"></p>
                     
-                    <p style="color: rgb(201, 201, 201);">Vendido e entregue por Riachuelo</p>
+                    <p id="modal-riachuelo" style="color: rgb(201, 201, 201);">Vendido e entregue por Riachuelo</p>
                     <hr style="border-top: 1px solid whitesmoke;">
-                    <p><b>Cores:</b></p>
-                    <div>
+                    <p class="font-20"><b>Cores:</b></p>
+                    <div class="modal-inputs">
                         <label><input type="radio" name="radioset" />Laranja</label>
                         <label><input type="radio" name="radioset" />Marrom</label>
                         <label><input type="radio" name="radioset" />Bege</label>
                     </div>
 
                     <hr style="border-top: 1px solid whitesmoke;">
-                    <p>Tamanho:</p>
-                    <div>
+                    <p class="font-20">Tamanho:</p>
+                    <div class="modal-inputs">
                         <label><input type="radio" name="radioset2" />P</label>
                         <label><input type="radio" name="radioset2" />PP</label>
                         <label><input type="radio" name="radioset2" />M</label>
                         <label><input type="radio" name="radioset2" />G</label>
                         <label><input type="radio" name="radioset2" />GG</label>
                     </div>
-                    <button class="comprar">Adicionar à sacola</button>
+                    <a class="comprar" type="button" href="index.html">Adicionar à sacola</a>
                 </div>
             </div>
         </div>

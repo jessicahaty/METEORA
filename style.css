@@ -63,6 +63,10 @@ header {
     
 }
 
+.direitos a {
+    color: #daff01;
+}
+
 .categoria-card p {
     background-color: #ccc;
     width:160px;
@@ -320,6 +324,26 @@ footer p{
     cursor: pointer;
 }
 
+.comprar {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.comprar:hover {
+    background-color: black;
+    color: #fff;
+}
+
 
 
 
@@ -365,7 +389,7 @@ footer p{
     top: 50%;
     transform: translateY(-50%);
     font-size: 24px;
-    color: white;
+    color: transparent;
 }
 
 .prev {
@@ -530,11 +554,16 @@ footer p{
     }
 
     .fechar {
-        font-size: 18px;
+        font-size: 40px;
+        margin-bottom: 40px;
     }
 
     .modal-conteudo {
         width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-y: auto;
+        max-height: 80vh;
     }
 
     .direitos p {
@@ -550,4 +579,81 @@ footer p{
     .sustentabilidade img {
         margin-left: 10%;
     }
+
+    #info-topo {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #info-topo h2 {
+        padding-right: 10px;
+        margin-left: 20px;
+        font-size: 22px;
+    }
+
+    .modal-conteudo img {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+
+    .modal-conteudo hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    #modal-imagem{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        width: 90%;
+    }
+
+    #modal-titulo {
+        font-size: 30px;
+    }
+
+    #modal-descricao {
+        font-size: 15px;
+    }
+
+    #modal-preco {
+        font-size: 30px;
+    }
+    
+    #modal-riachuelo {
+        font-size: 20px;
+    }
+
+    .font-20 {
+        font-size: 20px;
+    }
+
+    .modal-inputs {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .modal-inputs label {
+        margin-bottom: 8px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .modal-inputs input[type="radio"] {
+        transform: scale(1.4); 
+        margin-right: 8px; 
+    }
+    
+    .modal-inputs input[type="radio"]:checked {
+        border: 2px solid #3498db;
+    }
+
+
 }

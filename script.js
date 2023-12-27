@@ -49,13 +49,13 @@ function updateImage() {
     var screenWidth = window.innerWidth;
 
     if (screenWidth < 600) {  
-        bannerImage1.src = './img/header/BannerMobile1.png';
-        bannerImage2.src = './img/header/BannerMobile2.png';
-        bannerImage3.src = './img/header/BannerMobile3.png';
+        bannerImage1.src = 'img/header/bannerMobile1.png';
+        bannerImage2.src = 'img/header/bannerMobile2.png';
+        bannerImage3.src = 'img/header/bannerMobile3.png';
     } else if (screenWidth < 900) {  
-        bannerImage1.src = 'img/header/BannerTablet1.png';
-        bannerImage2.src = 'img/header/BannerTablet2.png';
-        bannerImage3.src = 'img/header/BannerTablet3.png';
+        bannerImage1.src = 'img/header/bannerTablet1.png';
+        bannerImage2.src = 'img/header/bannerTablet2.png';
+        bannerImage3.src = 'img/header/bannerTablet3.png';
     } else {  
         bannerImage1.src = 'img/header/Banner1G.png'; 
         bannerImage2.src = 'img/header/Banner2G.png'; 

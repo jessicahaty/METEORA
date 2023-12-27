@@ -81,7 +81,7 @@ header {
 .categoria-card {
     cursor: pointer;
     font-family: 'Kanit', sans-serif;
-    margin: 0 1.5%; /* Adicionar margens para espaçamento entre os itens */
+    margin: 0 1.5%; 
     box-sizing: border-box;
 }
 
@@ -97,7 +97,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 
@@ -616,7 +616,7 @@ footer p{
     }
 
     #modal-titulo {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #modal-descricao {
@@ -624,15 +624,15 @@ footer p{
     }
 
     #modal-preco {
-        font-size: 30px;
+        font-size: 25px;
     }
     
     #modal-riachuelo {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .font-20 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .modal-inputs {
@@ -642,12 +642,12 @@ footer p{
 
     .modal-inputs label {
         margin-bottom: 8px;
-        font-size: 16px;
+        font-size: 12px;
         cursor: pointer;
     }
     
     .modal-inputs input[type="radio"] {
-        transform: scale(1.4); 
+        transform: scale(1.3); 
         margin-right: 8px; 
     }
     
